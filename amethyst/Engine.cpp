@@ -32,5 +32,7 @@
 
  }
 
- Engine::GameStates Engine::s_gameState= UNINITIALSED;
- sf::RenderWindow Engine::s_mainWindow;
+ Engine::Engine() {
+	 s_gameState = UNINITIALSED;
+ }
+
