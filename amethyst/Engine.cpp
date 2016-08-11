@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "Engine.h"
 
-/* 
- * A class representing our game engine 
+/** 
+ * A class representing our game engine.  
  */
  void Engine::start() {
 	 if ( s_gameState != UNINITIALSED ) {
